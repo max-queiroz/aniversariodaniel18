@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página</title>
+</head>
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+* {
+  font-family: 'Albert Sans';
+}
+h1 {
+    margin: 0;
+    text-align:center;
+}
+
+p {
+    text-align:center;
+    width: 350px;
+}   
+
+div {text-align:center};
+div.align{
+  width: 200px;
+}
+
+
+body{
+    background-color:#8087a0;
+}
+
+
+h5{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+}
+
+footer{
+    color:white;
+}
+
+#mais{
+    display:none;
+}
+
+</style>
+
+<head>
+<title>Página</title>
+</head>
+
+<body>
+<hr>
+
+<center><button onclick="vermais()" id="btnVermais">Clique aqui</button></center>
+<span id="ponto"> </span><span id="mais">
+
+
+<div class="texto">
+
+<p>
+
+<h1 style="color: white;">Aniversário de Daniel O Invasor</h1>
+
+<center>
+<img id="image" src="https://www.funimada.com/assets/images/cards/big/bday-909.gif"
+alt="Photo" width="250px">
+
+<img id="image" src="https://www.funimada.com/assets/images/cards/big/bday-1097.gif"
+alt ="Photo" width="250px">
+</center>
+
+<h2 style="color: rgb(228, 195, 7);">Parabéns irmão, vida longa e muita saúde, muita felicidade e vida pro resto da sua vida</h2>
+<h5 style="color: rgb(109, 24, 3);">18 Anos? Só toma cuidado pra não ser preso</h5>
+
+<center>
+<img id="image" src="https://lh3.googleusercontent.com/pw/AJFCJaV--IqjCRBpnSsm2g6YEgn5Qw4i2kwUuw2CC6fzvvUDRG9aVYx_BngxAchsenMdBI80MX2vSp5cNDjoYWxo01IOxCWRkZNgghuGeYqemYjKLRXSLacB97kOlw46tlHuFTEZYQCwGj3XWHU4GMOEjS8j=w600-h800-s-no?authuser=0"
+alt="Photo" width="250px">
+
+<img id="image" src="https://lh3.googleusercontent.com/pw/AJFCJaWuL_Cq6Ou2dFyiR7KKgwUqWHzJ1iz2s9V8U-c7vLXUDVCq6U4z0niE_-XZc_f63qXyIIwvUPovgvjcEpFuOHDryG1kGILHM14R7fetePu7iqXmZTWjNonm8RpIZnHolgOWIZkBQ986w2pW92IjE81U=w451-h800-s-no?authuser=0"
+alt="Photo" width="250px">
+</center>
+
+<h1 style="color: red;" >Vida longa ao Invasor</h1>
+
+<center>
+<img id="image" src="https://lh3.googleusercontent.com/pw/AJFCJaUmMp1LwZ_3Dx_rANAB88FO0DIuHcuwZqrefSU38hWhqHcGqRBUh_hGvWpZwnohC1GNPqk-sVc_CItDyXVOXQ8QZIur7Nx776AqvuEyQoYSpykgiQJUlpFMTBRlc-vZQPOuV_xY_OJTUBRFSV779a4P=w451-h800-s-no?authuser=0"
+alt="Photo" width="100px">
+
+<img id="image" src="https://media.tenor.com/9Uka7Z57fqUAAAAS/gifs-de-anivers%C3%A1rios-parab%C3%A9ns.gif"
+alt="Photo" width="100px">
+</center>
+
+</p>
+
+<footer>"Seis virão o tamanho da rola mastodontica do batman? Cada ovo ali deve pesar uns sete quilos"</footer>
+</div>
+
+
+
+<script>
+   function vermais (){
+    let ponto = document.getElementById("ponto");
+    let maisTexto = document.getElementById("mais");
+    let btnVermais= document.getElementById("btnVerMais");
+
+    if(ponto.style.display ==="none"){
+        ponto.style.display="inline";
+        maisTexto.style.display="none";
+        btnVermais.innerHTML="Clique aqui";
+
+    }else {
+        ponto.style.display="none";
+        maisTexto.style.display="inline";
+        btnVermais.innerHTML="Esconder";
+    }
+
+
+   } 
+
+</script>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
